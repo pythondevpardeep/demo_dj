@@ -6,9 +6,7 @@ from django.http import HttpResponse
 from datetime import datetime
 
 now = datetime.now()
-
-
-print("date and time =", dt_string)	
+	
 def index(request):
     
     msg = "Code Updated at" + now.strftime("%d/%m/%Y %H:%M:%S")
