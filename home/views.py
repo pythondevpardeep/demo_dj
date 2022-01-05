@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    msg = "Success new"
+    msg = "Success new updated now"
     return HttpResponse(msg, content_type='text/plain')
